@@ -1,0 +1,28 @@
+{
+  "name": "@fozikio/tools-reasoning",
+  "version": "0.1.0",
+  "description": "Reasoning and cognitive tools plugin for cortex-engine",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "peerDependencies": {
+    "cortex-engine": ">=0.1.0"
+  },
+  "devDependencies": {
+    "cortex-engine": "file:../cortex-engine",
+    "typescript": "^5.7.0"
+  },
+  "keywords": [
+    "cortex",
+    "plugin",
+    "reasoning",
+    "mcp"
+  ],
+  "license": "MIT"
+}
