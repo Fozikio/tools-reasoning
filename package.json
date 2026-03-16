@@ -1,6 +1,6 @@
 {
   "name": "@fozikio/tools-reasoning",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Cognitive reasoning for AI agents — abstraction, contradiction detection, and insight surfacing. Plugin for cortex-engine.",
   "type": "module",
   "main": "dist/index.js",
