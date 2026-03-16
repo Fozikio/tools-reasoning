@@ -1,7 +1,7 @@
 {
   "name": "@fozikio/tools-reasoning",
   "version": "0.1.2",
-  "description": "Reasoning and cognitive tools plugin for cortex-engine",
+  "description": "Cognitive reasoning for AI agents — abstraction, contradiction detection, and insight surfacing. Plugin for cortex-engine.",
   "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -22,7 +22,12 @@
     "cortex",
     "plugin",
     "reasoning",
-    "mcp"
+    "mcp",
+    "ai-agent",
+    "memory",
+    "cognition",
+    "abstraction",
+    "fozikio"
   ],
   "license": "MIT",
   "author": "Fozikio <hello@fozikio.com>",
@@ -34,5 +39,10 @@
   "funding": {
     "type": "github",
     "url": "https://github.com/sponsors/idapixl"
-  }
+  },
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md"
+  ]
 }
