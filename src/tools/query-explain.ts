@@ -3,7 +3,7 @@
  * Performs embedding-based retrieval then explains each result.
  */
 
-import type { ToolDefinition, ToolContext } from 'cortex-engine';
+import type { ToolDefinition, ToolContext } from '@fozikio/cortex-engine';
 
 export const queryExplainTool: ToolDefinition = {
   name: 'query_explain',

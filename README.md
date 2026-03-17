@@ -30,7 +30,7 @@ plugins:
 
 ```typescript
 import reasoningPlugin from "@fozikio/tools-reasoning";
-import { CortexEngine } from "cortex-engine";
+import { CortexEngine } from "@fozikio/cortex-engine";
 
 const engine = new CortexEngine({
   plugins: [reasoningPlugin],

@@ -3,7 +3,7 @@
  * Stored immediately, embedded during the next embed-pending job.
  */
 
-import type { ToolDefinition, ToolContext } from 'cortex-engine';
+import type { ToolDefinition, ToolContext } from '@fozikio/cortex-engine';
 
 const OBSERVATIONS_COLLECTION = 'observations';
 

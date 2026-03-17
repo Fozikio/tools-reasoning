@@ -3,7 +3,7 @@
  * Creates a CONTRADICTION signal linking the observation to the concept.
  */
 
-import type { ToolDefinition, ToolContext } from 'cortex-engine';
+import type { ToolDefinition, ToolContext } from '@fozikio/cortex-engine';
 
 const OBSERVATIONS_COLLECTION = 'observations';
 const BELIEFS_COLLECTION = 'beliefs';

@@ -3,7 +3,7 @@
  * Does not create the memory; returns the proposal only.
  */
 
-import type { ToolDefinition, ToolContext } from 'cortex-engine';
+import type { ToolDefinition, ToolContext } from '@fozikio/cortex-engine';
 
 const MEMORIES_COLLECTION = 'memories';
 

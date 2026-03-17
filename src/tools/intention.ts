@@ -3,7 +3,7 @@
  * Set reminders that surface when a trigger condition occurs.
  */
 
-import type { ToolDefinition, ToolContext } from 'cortex-engine';
+import type { ToolDefinition, ToolContext } from '@fozikio/cortex-engine';
 
 const INTENTIONS_COLLECTION = 'intentions';
 

@@ -2,7 +2,7 @@
  * resolve — mark a signal as resolved with an optional note.
  */
 
-import type { ToolDefinition, ToolContext } from 'cortex-engine';
+import type { ToolDefinition, ToolContext } from '@fozikio/cortex-engine';
 
 const SIGNALS_COLLECTION = 'signals';
 

@@ -2,7 +2,7 @@
  * surface — list unresolved signals (contradictions, tensions, gaps).
  */
 
-import type { ToolDefinition, ToolContext } from 'cortex-engine';
+import type { ToolDefinition, ToolContext } from '@fozikio/cortex-engine';
 
 const SIGNALS_COLLECTION = 'signals';
 

@@ -5,7 +5,7 @@
  * These tools use LLM for cognitive operations, store signals, and manage observations.
  */
 
-import type { ToolPlugin } from 'cortex-engine';
+import type { ToolPlugin } from '@fozikio/cortex-engine';
 import { abstractTool } from './tools/abstract.js';
 import { contradictTool } from './tools/contradict.js';
 import { surfaceTool } from './tools/surface.js';
