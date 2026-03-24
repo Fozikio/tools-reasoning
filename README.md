@@ -1,5 +1,9 @@
 # @fozikio/tools-reasoning
 
+> **Built into cortex-engine v1.0.0+**
+> These tools are now included in [`@fozikio/cortex-engine`](https://github.com/Fozikio/cortex-engine) core — no separate install needed. This package remains available for use with cortex-engine **v0.x only**. If you're on v1.0.0+, just install `@fozikio/cortex-engine`.
+
+
 Cognitive reasoning plugin for cortex-engine. Higher-order thinking tools for abstraction, contradiction detection, signal surfacing, prospective memory, and explained retrieval.
 
 ## Install
