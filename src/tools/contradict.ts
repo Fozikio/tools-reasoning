@@ -14,6 +14,8 @@ export const contradictTool: ToolDefinition = {
   name: 'contradict',
   description:
     'Record a contradiction between an observation and a belief or memory. Creates a CONTRADICTION signal. Provide observation_id and exactly one of belief_id or memory_id.',
+  category: 'beliefs',
+  whenToUse: 'When recording a contradiction between an observation and a belief or memory',
   inputSchema: {
     type: 'object',
     properties: {

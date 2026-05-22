@@ -11,6 +11,8 @@ export const abstractTool: ToolDefinition = {
   name: 'abstract',
   description:
     'Propose a single higher-level concept (name and definition) that subsumes the given 2-10 memories. Does not write to the graph; returns the proposal only.',
+  category: 'consolidation',
+  whenToUse: 'When synthesizing 2-10 related memories into a higher-level concept proposal',
   inputSchema: {
     type: 'object',
     properties: {

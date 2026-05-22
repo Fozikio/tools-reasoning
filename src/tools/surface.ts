@@ -9,6 +9,8 @@ const SIGNALS_COLLECTION = 'signals';
 export const surfaceTool: ToolDefinition = {
   name: 'surface',
   description: 'List unresolved signals — contradictions, tensions, and gaps in the knowledge graph.',
+  category: 'beliefs',
+  whenToUse: 'When surfacing unresolved signals - contradictions, tensions, and gaps in the knowledge graph',
   inputSchema: {
     type: 'object',
     properties: {

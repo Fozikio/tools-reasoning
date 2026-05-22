@@ -9,6 +9,8 @@ export const queryExplainTool: ToolDefinition = {
   name: 'query_explain',
   description:
     'Semantic search over memory with one-sentence relevance explanations. Returns each result plus a "why" string explaining why that memory is relevant to the query.',
+  category: 'memory',
+  whenToUse: 'When running a semantic search and needing per-result relevance explanations',
   inputSchema: {
     type: 'object',
     properties: {

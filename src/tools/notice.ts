@@ -11,6 +11,8 @@ export const noticeTool: ToolDefinition = {
   name: 'notice',
   description:
     'Store an observation without embedding (fast path). Embedding happens during the next embed-pending job. Use for low-latency logging.',
+  category: 'memory',
+  whenToUse: 'When logging a low-latency observation without waiting for embedding',
   inputSchema: {
     type: 'object',
     properties: {

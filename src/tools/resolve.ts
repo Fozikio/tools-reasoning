@@ -9,6 +9,8 @@ const SIGNALS_COLLECTION = 'signals';
 export const resolveTool: ToolDefinition = {
   name: 'resolve',
   description: 'Mark a signal as resolved with an optional note explaining how it was addressed.',
+  category: 'beliefs',
+  whenToUse: 'When marking an unresolved signal - contradiction or tension - as resolved',
   inputSchema: {
     type: 'object',
     properties: {

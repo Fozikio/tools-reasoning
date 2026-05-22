@@ -11,6 +11,8 @@ export const intentionTool: ToolDefinition = {
   name: 'intention',
   description:
     'Prospective memory — set a reminder to surface when a trigger condition occurs. Example: trigger="when user mentions X", content="remind about Y". Use action=list to show pending, action=fire to mark as fired, action=cancel to delete.',
+  category: 'memory',
+  whenToUse: 'When setting a prospective reminder or listing, firing, or cancelling pending intentions',
   inputSchema: {
     type: 'object',
     properties: {
