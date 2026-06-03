@@ -21,7 +21,7 @@
     "@fozikio/cortex-engine": ">=0.1.0"
   },
   "devDependencies": {
-    "@fozikio/cortex-engine": "file:../cortex-engine",
+    "@fozikio/cortex-engine": "^1.2.0",
     "typescript": "^5.7.0"
   },
   "keywords": [
